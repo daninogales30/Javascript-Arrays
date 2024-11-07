@@ -11,4 +11,4 @@ function existeEn(letra,array){
     return false;
 }
 
-console.log(existeEn(letra,""))
+console.log(existeEn(letra,arraysLetras))
