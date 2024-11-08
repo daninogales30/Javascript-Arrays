@@ -1,8 +1,8 @@
-let arrayLista = [2,4,5,1,2];
+let arrayLista = [2, 4, 5, 1, 2];
 
-function sumaLista(listaArrays){
+function sumaLista(listaArrays) {
     resultado = 0;
-    for(let i = 0; i<arrayLista.length; i++){
+    for (let i = 0; i < arrayLista.length; i++) {
         resultado = resultado + arrayLista[i]
     }
 

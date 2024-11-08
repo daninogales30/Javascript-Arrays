@@ -8,10 +8,10 @@ let turnos = [
 
 let dia = prompt("Dime un dia de la semana")
 
-function servicio(dia){
-    for(let i = 0;i<turnos.length;i++){
-        if(turnos[i][0] == dia){
-            return "Este dia se encarga "+turnos[i][1]+"";
+function servicio(dia) {
+    for (let i = 0; i < turnos.length; i++) {
+        if (turnos[i][0] == dia) {
+            return "Este dia se encarga " + turnos[i][1] + "";
         }
     }
 
